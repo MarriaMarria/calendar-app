@@ -1,0 +1,32 @@
+{
+  "name": "tuto-node-sql",
+  "version": "1.0.0",
+  "description": "calendar app with nodejs and sql server",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarriaMarria/calendar-app.git"
+  },
+  "author": "Maria Kononevskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarriaMarria/calendar-app/issues"
+  },
+  "homepage": "https://github.com/MarriaMarria/calendar-app#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "mssql": "^7.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-reverentgeek": "^3.1.2"
+  }
+}
